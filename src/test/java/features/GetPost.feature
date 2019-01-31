@@ -1,3 +1,4 @@
+@Tests
 Feature:
   Verify different operations using Rest-assured
 

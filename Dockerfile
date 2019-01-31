@@ -10,4 +10,4 @@ RUN mvn -version
 RUN git clone https://github.com/bongadub/CucumberDemo.git
 CMD ls
 CMD ls
-RUN cd Rest-Assured && mvn test
+RUN cd CucumberDemo && mvn test

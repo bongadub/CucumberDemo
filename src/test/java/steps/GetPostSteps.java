@@ -78,8 +78,8 @@ public class GetPostSteps {
     public void iCreateAUpdateOperation() {
         HashMap<String,String> postContent = new HashMap<String, String>();
         postContent.put("id", "6");
-        postContent.put("title","New Title");
-        postContent.put("author", "Author");
+        postContent.put("title","Updated Title");
+        postContent.put("author", "New Author");
 
         given()
                 .contentType(ContentType.JSON).
